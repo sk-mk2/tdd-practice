@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="JUnit Jupiter" tests="8" skipped="0" failures="0" errors="0" time="0.141" hostname="W331AU" timestamp="2018-06-29T20:47:48">
+<testsuite name="JUnit Jupiter" tests="10" skipped="0" failures="0" errors="0" time="0.137" hostname="W331AU" timestamp="2018-06-29T21:19:50">
 <properties>
 <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
 <property name="file.encoding" value="UTF-8"/>
@@ -56,13 +56,13 @@
 <property name="user.timezone" value="Asia/Tokyo"/>
 <property name="user.variant" value=""/>
 </properties>
-<testcase name="testReduceSum()" classname="money.MoneyTest" time="0.02">
+<testcase name="testReduceSum()" classname="money.MoneyTest" time="0.021">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:money.MoneyTest]/[method:testReduceSum()]
 display-name: testReduceSum()
 ]]></system-out>
 </testcase>
-<testcase name="testSimpleAddition()" classname="money.MoneyTest" time="0.005">
+<testcase name="testSimpleAddition()" classname="money.MoneyTest" time="0.006">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:money.MoneyTest]/[method:testSimpleAddition()]
 display-name: testSimpleAddition()
@@ -74,13 +74,25 @@ unique-id: [engine:junit-jupiter]/[class:money.MoneyTest]/[method:testMultiplica
 display-name: testMultiplication()
 ]]></system-out>
 </testcase>
+<testcase name="testMixedAddition()" classname="money.MoneyTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:money.MoneyTest]/[method:testMixedAddition()]
+display-name: testMixedAddition()
+]]></system-out>
+</testcase>
 <testcase name="testReduceMoney()" classname="money.MoneyTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:money.MoneyTest]/[method:testReduceMoney()]
 display-name: testReduceMoney()
 ]]></system-out>
 </testcase>
-<testcase name="testCurrency()" classname="money.MoneyTest" time="0.001">
+<testcase name="testIdentifyRate()" classname="money.MoneyTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:money.MoneyTest]/[method:testIdentifyRate()]
+display-name: testIdentifyRate()
+]]></system-out>
+</testcase>
+<testcase name="testCurrency()" classname="money.MoneyTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:money.MoneyTest]/[method:testCurrency()]
 display-name: testCurrency()
@@ -92,7 +104,7 @@ unique-id: [engine:junit-jupiter]/[class:money.MoneyTest]/[method:testEquality()
 display-name: testEquality()
 ]]></system-out>
 </testcase>
-<testcase name="testPlusReturnsSum()" classname="money.MoneyTest" time="0.001">
+<testcase name="testPlusReturnsSum()" classname="money.MoneyTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:money.MoneyTest]/[method:testPlusReturnsSum()]
 display-name: testPlusReturnsSum()
